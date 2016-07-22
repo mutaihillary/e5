@@ -1,0 +1,11 @@
+
+body{
+  background-color: grey;
+}
+.start {
+  text-align: left;
+  font-family: Open sans, light ,32px,#fff;
+  background: url(images/header.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
