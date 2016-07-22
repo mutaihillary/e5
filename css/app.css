@@ -2,10 +2,33 @@
 body{
   background-color: grey;
 }
-.start {
-  text-align: left;
-  font-family: Open sans, light ,32px,#fff;
-  background: url(images/header.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
+
+#container{
+  background-color: white;
+}
+
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+.image img{
+  width: 100%;
+}
+
+h3 {
+   position: absolute;
+   top: 40px;
+   left: 0;
+   width: 100%;
+}
+h1 {
+   position: absolute;
+   top: 65px;
+   left: 0;
+   width: 100%;
+}
+
+h6{
+  color: blue;
+  font-size: 18px
 }
